@@ -1860,7 +1860,7 @@ boost_1_69_0/boost/process/async_system.hpp
 ```bash
 cd boost_1_69_0
 ./bootstrap.sh
-./b2 -j2
+./b2
 ```
 ```bash
 Performing configuration checks
