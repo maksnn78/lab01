@@ -86,12 +86,12 @@ boost_1_69_0/boost/any.hpp
 boost_1_69_0/boost/hana/any.hpp
 boost_1_69_0/boost/hana/fwd/any.hpp
 boost_1_69_0/boost/xpressive/detail/utility/any.hpp
-'''
+```
 ## 7. Выведите в консоль все файлы, где упоминается последовательность boost::asio.
-'''bash
+```bash
 grep -rl "boost::asio" boost_1_69_0
-'''
-'''bash
+```
+```bash
 boost_1_69_0/doc/html/boost_process/extend.html
 boost_1_69_0/doc/html/boost_process/tutorial.html
 boost_1_69_0/doc/html/boost/process/std_out.html
