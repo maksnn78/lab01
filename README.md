@@ -91,9 +91,7 @@ boost_1_69_0/boost/xpressive/detail/utility/any.hpp
 ```bash
 grep -rl "boost::asio" boost_1_69_0 > asio_usage.txt
 ```
-```bash
 [asio_usage.txt](https://github.com/maksnn78/lab01/blob/master/asio_usage.txt)
-```
 ## 8. Скомпилирутйе boost. Можно воспользоваться инструкцией или ссылкой.
 ```bash
 
