@@ -94,11 +94,18 @@ grep -rl "boost::asio" boost_1_69_0 > asio_usage.txt
 [asio_usage.txt](https://github.com/maksnn78/lab01/blob/master/asio_usage.txt)
 ## 8. Скомпилирутйе boost. Можно воспользоваться инструкцией или ссылкой.
 ```bash
-
+wget https://archives.boost.io/release/1.83.0/source/boost_1_83_0.tar.gz
+tar -xzf boost_1_83_0.tar.gz
+cd boost_1_83_0
+./bootstrap.sh
+./b2 -j$(nproc) > build.log 2>&1
+mv build.log ~/lab01
+cd ~/lab01
+git add build.log
+git commit -m "boost 1.83 full build log"
+git push origin master
 ```
-```bash
-
-```
+[build.log](https://github.com/maksnn78/lab01/blob/master/build.log)
 ## 9.Перенесите все скомпилированные на предыдущем шаге статические библиотеки в директорию ~/boost-libs.
 ```bash
 mkdir boost-libs
